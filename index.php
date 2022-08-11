@@ -28,8 +28,13 @@
             <br><label for="praz">Pagamento à prazo</label>
             <input id="praz" type="radio" name="pgt" value="praz"></br>
             
+            <tr class='botoes'>
+                    <td><input type='submit' name= 'botao_produto'value='cadastrar produto'></td>
+                    <td><input type='submit' name= 'botao_produto'value='atualizar produto'></td>
+                    <td><input type='submit' name= 'botao_produto'value='deletar produto'></td>
+                    <td><input type='submit' name= 'botao_produto' value='consultar produto'></td>
+            </tr>   
 
-            <br><input type="submit" value="enviar" name='enviar'></br>
         </form>
     </div>
 </body>
